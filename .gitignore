@@ -1,0 +1,31 @@
+# Datos extraídos y derivados (peso + PII) — NO versionar
+*.csv
+!sample/sample.csv
+*.xlsx
+*.zip
+*.tsv
+datos_sigep/
+limpios_alto_rango/
+limpios_alto_rango_con_correo/
+_clasificacion_cargos/
+_analisis_*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Scripts legacy en raíz (la versión de portafolio vive en src/)
+/scraping.py
+/limpiar_cargos.py
+/filtrar_con_correo.py
