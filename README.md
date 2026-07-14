@@ -49,7 +49,7 @@ SIGEP (web)
 ## Instalación
 
 ```bash
-git clone https://github.com/<TU_USUARIO>/sigep-sales-intelligence.git
+git clone https://github.com/blessed666-code/sigep-sales-intelligence.git
 cd sigep-sales-intelligence
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
