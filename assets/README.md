@@ -1,8 +1,7 @@
 # Assets
 
-**No es obligatorio.** El README y `docs/architecture.md` ya tienen el flujo en Mermaid (se renderiza en GitHub).
+| Archivo | Uso |
+|---------|-----|
+| `pipeline.png` | Diagrama del flujo (README) |
 
-Si más adelante quieres PNG/SVG (LinkedIn, demos), puedes añadir:
-
-- `pipeline.png` — scrap → clean → email → BillionMail
-- `architecture.png` — vista de módulos
+El detalle técnico sigue en Mermaid dentro de `docs/architecture.md`.

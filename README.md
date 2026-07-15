@@ -4,6 +4,8 @@ Pipeline en Python para **extracción, segmentación y preparación de leads** a
 
 Diseñado para ventas B2G / outreach a personal de alto rango en entidades públicas (secretario de despacho, director, alcalde, gerente, etc.).
 
+![Pipeline SIGEP → BillionMail](assets/pipeline.png)
+
 > **Nota:** este repositorio publica **código, documentación y samples sintéticos**. Los datasets con nombres, correos y teléfonos reales **no se versionan** (PII).
 
 ---
@@ -116,7 +118,8 @@ sigep-sales-intelligence/
 ├── sample/
 │   ├── sample.csv                 # crudo sintético
 │   └── sample_billionmail.csv     # import sintético
-├── assets/                        # PNG opcionales (Mermaid basta)
+├── assets/
+│   └── pipeline.png               # diagrama del flujo
 └── tests/
 ```
 
