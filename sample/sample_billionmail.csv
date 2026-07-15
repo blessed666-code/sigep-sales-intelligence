@@ -1,0 +1,6 @@
+email,attributes
+secretaria.hacienda@ejemplo.gov.co,"{""department"": ""Cundinamarca"", ""name"": ""Ana María Ejemplo Ruiz"", ""position"": ""Secretario de Despacho"", ""assigned_entity"": ""Alcaldía de Ejemplo""}"
+director.tic@ejemplo.gov.co,"{""department"": ""Cundinamarca"", ""name"": ""Carlos Andrés Demo López"", ""position"": ""Director de Tecnología"", ""assigned_entity"": ""Alcaldía de Ejemplo""}"
+jefe.oficina@demo.gov.co,"{""department"": ""Bogotá, D.C."", ""name"": ""Lucía Fernanda Sample Torres"", ""position"": ""Jefe de Oficina"", ""assigned_entity"": ""Entidad Demo Nacional""}"
+gerente@demo-antioquia.gov.co,"{""department"": ""Antioquia"", ""name"": ""Pedro José Muestra Gómez"", ""position"": ""Gerente"", ""assigned_entity"": ""Gobernación Demo""}"
+asesor.despacho@demo.gov.co,"{""department"": ""Valle del Cauca"", ""name"": ""María Paula Ficticia Díaz"", ""position"": ""Asesor de Despacho"", ""assigned_entity"": ""Alcaldía Demo Cali""}"

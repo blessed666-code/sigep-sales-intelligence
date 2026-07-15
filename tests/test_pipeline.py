@@ -14,6 +14,7 @@ sys.path.insert(0, str(ROOT / "src"))
 from classify import es_cargo_alto_rango  # noqa: E402
 from clean import es_cargo_activo  # noqa: E402
 from email_ready import correo_valido  # noqa: E402
+from text_format import formatear_cargo, formatear_correo, formatear_nombre  # noqa: E402
 
 
 class TestClassify(unittest.TestCase):
@@ -59,6 +60,29 @@ class TestEmail(unittest.TestCase):
 
     def test_vacio(self) -> None:
         self.assertFalse(correo_valido(""))
+
+
+class TestTextFormat(unittest.TestCase):
+    def test_nombre_title_case(self) -> None:
+        self.assertEqual(
+            formatear_nombre("CONSUELO GOMEZ ARBELAEZ"),
+            "Consuelo Gómez Arbeláez",
+        )
+
+    def test_correo_minusculas(self) -> None:
+        self.assertEqual(
+            formatear_correo("Jefe@Ejemplo.GOV.CO"),
+            "jefe@ejemplo.gov.co",
+        )
+
+    def test_cargo_abreviado_sin_adivinar(self) -> None:
+        self.assertEqual(
+            formatear_cargo("GERENTE OPERAC, FINANCIERAS"),
+            "Gerente Operac., Financieras",
+        )
+
+    def test_cargo_quita_guion_final(self) -> None:
+        self.assertEqual(formatear_cargo("ASESOR-"), "Asesor")
 
 
 if __name__ == "__main__":

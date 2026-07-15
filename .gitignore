@@ -1,14 +1,17 @@
 # Datos extraídos y derivados (peso + PII) — NO versionar
 *.csv
 !sample/sample.csv
+!sample/sample_billionmail.csv
 *.xlsx
 *.zip
 *.tsv
 datos_sigep/
 limpios_alto_rango/
 limpios_alto_rango_con_correo/
+billionmail/
 _clasificacion_cargos/
 _analisis_*
+_tmp_*
 
 # Python
 __pycache__/

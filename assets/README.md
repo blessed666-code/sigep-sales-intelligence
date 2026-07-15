@@ -1,8 +1,8 @@
 # Assets
 
-Coloca aquí diagramas exportados (PNG/SVG), por ejemplo:
+**No es obligatorio.** El README y `docs/architecture.md` ya tienen el flujo en Mermaid (se renderiza en GitHub).
 
-- `pipeline.png` — flujo scrap → clean → email
+Si más adelante quieres PNG/SVG (LinkedIn, demos), puedes añadir:
+
+- `pipeline.png` — scrap → clean → email → BillionMail
 - `architecture.png` — vista de módulos
-
-Mientras tanto, el README y `docs/architecture.md` usan diagramas Mermaid.
